@@ -15,9 +15,8 @@ export default function Teach() {
     <>
       <section className="bg-accent text-white">
         <div className="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-20 sm:px-6 lg:px-8">
-          <p className="text-sm font-medium text-white/80">For former professional dancers</p>
-          <h1 className="max-w-3xl font-display text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">Your stage career ended. Your teaching career doesn’t have to wait.</h1>
-          <p className="max-w-2xl text-lg text-white/85">Encore gives you everything to teach online: video hosting, payments, a student base and a back office — so you can focus on the dancing.</p>
+          <h1 className="max-w-3xl font-display text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">Start building your second career today</h1>
+          <p className="max-w-2xl text-lg text-white/85">Encore is here to make the transition to teaching seamless: video hosting, payments tracking, marketing back office, and white glove branding — so you can focus on training.</p>
           <div className="flex flex-wrap gap-3">
             <Button to="/sign-in?as=pro&mode=join" variant="outline" size="lg">Apply to teach</Button>
             <Button to="/pricing" size="lg" className="border border-white/40">See fees</Button>
@@ -25,7 +24,11 @@ export default function Teach() {
         </div>
       </section>
       <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-        <h2 className="mb-8 font-display text-3xl font-semibold tracking-tight">Everything you need to teach online</h2>
+        <div className="mb-10 flex max-w-3xl flex-col gap-4">
+          <h2 className="font-display text-3xl font-semibold tracking-tight">Everything you need to teach online</h2>
+          <p className="text-lg text-zinc-600">What if we told you you didn’t need to master marketing, conquer finance, or blow your budget on white-gloving your branding all before launching your training business? You shouldn’t have to.</p>
+          <p className="text-lg font-medium text-ink">You spent your career mastering your art. We spent ours doing the rest.</p>
+        </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((f) => (
             <Card key={f.title} className="flex flex-col gap-3 p-6">
