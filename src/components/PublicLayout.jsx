@@ -81,7 +81,7 @@ export default function PublicLayout() {
         <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 md:grid-cols-4 lg:px-8">
           <div className="flex flex-col gap-3">
             <Logo />
-            <p className="text-sm text-zinc-600">Dance training from people who did it for a living.</p>
+            <p className="text-sm text-zinc-600">Professional training from trained professionals.</p>
           </div>
           <FooterCol title="Learn" items={[['Browse classes', '/marketplace'], ['Instructors', '/instructors'], ['My account', '/account']]} />
           <FooterCol title="Teach" items={[['Teach on Encore', '/teach'], ['Pricing & fees', '/pricing'], ['Instructor studio', '/studio']]} />

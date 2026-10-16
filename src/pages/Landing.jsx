@@ -17,7 +17,7 @@ export default function Landing() {
           <div className="flex flex-col gap-6">
             <span className="w-fit rounded-full border border-zinc-200 bg-white px-3 py-1 text-sm text-zinc-700">Taught by former professional dancers</span>
             <h1 className="font-display text-4xl font-semibold leading-[1.1] tracking-tight text-ink sm:text-5xl lg:text-6xl">
-              Train with dancers who’ve been on the stage you’re aiming for.
+              Professional training from trained professionals
             </h1>
             <p className="max-w-xl text-lg text-zinc-600">
               On-demand classes, multi-week programs and live coaching in ballet, contemporary, hip-hop, jazz, flamenco and more — from instructors who performed for a living.
